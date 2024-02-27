@@ -52,4 +52,5 @@ a {
   padding: 0.5rem 1rem;
   font-size: clamp(1rem, 0.9296rem + 0.3005vw, 1.2rem);
   border-radius: 5px;
+  text-align: center;
 }
