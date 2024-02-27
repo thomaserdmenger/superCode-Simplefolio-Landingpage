@@ -1,0 +1,8 @@
+.projects-section {
+  margin-block-start: 4rem;
+}
+
+.projects-section div {
+  display: flex;
+  gap: 1rem;
+}

@@ -1,0 +1,17 @@
+@import url(../../assets/css/colors.css);
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  text-align: center;
+  background-color: var(--color-card-background);
+  padding: 1rem;
+  box-shadow: 0 0 15px #1e243a;
+  border-radius: 5px;
+}
+
+.project-container p:last-of-type {
+  font-weight: 600;
+}
