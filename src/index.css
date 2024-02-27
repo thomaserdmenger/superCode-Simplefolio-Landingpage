@@ -1,0 +1,43 @@
+@import url(./assets/css/colors.css);
+
+@font-face {
+  font-family: Inter;
+  src: url(./assets/fonts/Inter-VariableFont.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: Inter;
+}
+
+.wrapper {
+  min-height: 100vh;
+  padding-inline: 5%;
+  padding-block-start: 1rem;
+  background-color: var(--color-background);
+  color: var(--color-text-default);
+  font-size: clamp(1rem, 1.0704rem + -0.3005vw, 0.8rem);
+}
+
+h1 {
+  margin-block-end: 1.5rem;
+  font-size: clamp(2rem, 2.2148rem + -0.9164vw, 1.39rem);
+}
+
+a {
+  cursor: pointer;
+  color: unset;
+  text-decoration: unset;
+}
+
+.btn {
+  color: var(--color-purple-light);
+  border: 1px solid var(--color-purple-light);
+  padding: 0.5rem 1rem;
+  font-size: clamp(1.2rem, 1.2704rem + -0.3005vw, 1rem);
+}

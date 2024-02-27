@@ -1,0 +1,25 @@
+@import url(../../assets/css/colors.css);
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-end: 4rem;
+}
+
+header nav {
+  display: flex;
+  gap: 1rem;
+}
+
+header > a {
+  color: var(--color-purple-light);
+  font-size: clamp(1.5rem, 1.6056rem + -0.4507vw, 1.2rem);
+  font-weight: 600;
+}
+
+header nav svg {
+  fill: var(--color-text-default);
+  height: 15px;
+  margin-block-start: 0.1rem;
+}
