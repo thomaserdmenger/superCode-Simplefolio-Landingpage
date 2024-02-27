@@ -3,6 +3,15 @@
 }
 
 .projects-section div {
-  display: flex;
+  display: grid;
   gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media only screen and (max-width: 768px) {
+  .projects-section div {
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin-inline: auto;
+  }
 }
